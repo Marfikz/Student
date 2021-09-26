@@ -1,0 +1,170 @@
+body{
+	margin: 0px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: "Poppins",sans-serif;
+}
+.menu{
+	width: 150px;
+	color: white;
+	background-color: #45015D;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 10;
+}
+.menu a{
+	text-decoration: solid;
+	color: white;
+	display: block;
+	padding: 8px 16px;
+}
+.menu a:hover{
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+}
+.main{
+	margin-left: 360px;
+	margin-right: 40px;
+	margin-top: 90px;
+}
+h1{
+	font-size: 64px;
+}
+h2{
+	color: #45015D;
+	font-size: 50px;
+}
+hr{
+	border: 5px solid #45015D;
+	width: 100%;
+	border-radius: 5px;
+}
+#showcase img{
+	margin: 5px;
+	border-radius: 15px;
+	width: 600px;
+	opacity: 0.7;
+}
+#showcase img:hover{
+	opacity: 1;
+}
+.big{
+	font-weight: bold;
+}
+p{
+	font-size: 23px;
+}
+#designers img{
+	width: 400px;
+	border-radius: 10px;
+}
+.people h2{
+	color: black;
+	margin: 0;
+	font-size: 30px;
+}
+.people{
+	display: inline-block;
+	margin: 0 15px;
+	margin-bottom: 20px;
+}
+.text{
+	background-color: #D9D9D9;
+	border-radius: 10px;
+	padding: 20px;
+}
+.grey{
+	color: gray;
+}
+.pack{
+	display: inline-block;
+	font-size: 23px;
+	border-radius: 20px;
+	background-color: #D9D9D9;
+	padding: 0;
+	margin-left: 20px;
+}
+.pack li{
+	list-style-type: none;
+	border-bottom: 1px solid grey;
+	text-align: center;
+	padding: 20px 200px;
+	border-radius: 20px;
+}
+.pack .basic{
+	background-color: #45015D;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 30px;
+	padding: 30px;
+}
+.pack .pro{
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 30px;
+	padding: 30px;
+}
+.sbig{
+	font-weight: bold;
+	font-size: 30px;
+}
+.red{
+	background-color: red;
+	color: white;
+	padding: 10px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+.purple{
+	background-color: #45015D;
+	color: white;
+	padding: 10px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+.pack a:hover{
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+}
+input{
+	width: 98%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+button{
+	text-align: center;
+	width: 98%;
+	padding: 10px;
+	background-color: #45015D;
+	color: white;
+	font-size: 20px;
+	border: 1px solid #45015D;
+	border-radius: 8px;
+	cursor: pointer;
+}
+button:hover{
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+}
+#footer{
+	background-color: #D9D9D9;
+	text-align: right;
+	z-index: 40;
+	position: relative;
+	padding: 30px;
+	margin-top: 50px;
+}
+#footer a{
+	color: black;
+}
